@@ -78,7 +78,10 @@ class pagerank
     	map<size_t, string> idx_to_nodes; // mapping from numeric node IDs to string
     	map<size_t,size_t> outdegree;//the outdegree of each edge
     	//multimap<string,string> arcs;
+    	
+    	/***The edges are directed edges, namely arcs!!!***/
     	multimap<size_t,size_t> edges; //the edges between nodes
+    	
     	//vector<size_t> num_outgoing; // number of outgoing links per column
     	//vector<double> vf;
 		//vector<vf> vvf;		
